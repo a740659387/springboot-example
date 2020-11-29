@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.zbyz.example</groupId>
+		<artifactId>discovery.example</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>springcloud.nacos.discovery.example</artifactId>
+	<packaging>pom</packaging>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- 管理nacos discover版本 -->
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+				<version>0.2.2.RELEASE</version>
+			</dependency>
+			<dependency>
+				<groupId>com.alibaba.nacos</groupId>
+				<artifactId>nacos-client</artifactId>
+				<version>1.1.0</version>
+			</dependency>
+			<!-- 管理nacos discover版本 -->
+		</dependencies>
+	</dependencyManagement>
+	<modules>
+		<module>springcloud.nacos.discovery.consumer.example</module>
+		<module>springcloud.nacos.discovery.provider.example</module>
+	</modules>
+</project>

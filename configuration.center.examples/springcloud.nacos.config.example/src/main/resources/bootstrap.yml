@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: zbyz.nacos   #Data Id为 sprint.application.name+"."+spring.cloud.nacos.config.file-extension
+  cloud:
+    nacos:
+      config:
+        file-extension: properties
+        group: zbyz   #配置group
+        namespace: zbyz   #配置命名空间
+        server-addr: 192.168.227.1:8848
