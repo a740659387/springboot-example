@@ -1,13 +1,11 @@
 # springboot-example
 springboot的一些示例
 
-## [configuration.center.examples](https://github.com/a740659387/springboot-example/tree/main/configuration.center.examples)
+## 配置中心
 
-配置中心相关的nacos示例
+[nacos](https://github.com/a740659387/springboot-example/tree/main/configuration.center.examples)
 
-## [discovery.examples](https://github.com/a740659387/springboot-example/tree/main/discovery.examples)
-
-服务发现相关
+## 服务发现
 
 [eureka](https://github.com/a740659387/springboot-example/tree/main/discovery.examples/springcloud.eureka.discovery.example)
 
