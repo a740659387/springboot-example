@@ -1,12 +1,34 @@
-# Spring cloud
+# nacos配置中心
 
-## DataId
+# 本地环境
 
-${prefix}-${spring.profiles.active}.${file-extension}
+ip：192.168.227.1
+
+jdk：1.8.0_231 X64
+
+## [启动nacos](https://nacos.io/zh-cn/docs/quick-start.html)
+
+## 打开nacos管理界面
+
+http://192.168.227.1:8848/
+
+## 配置nacos命名空间
+
+![image-20201129224457118](readme.assets/image-20201129224457118.png)
+
+![image-20201129224704032](readme.assets/image-20201129224704032.png)
+
+## 新建配置
+
+![image-20201129224747746](readme.assets/image-20201129224747746.png)
+
+![image-20201129225217998](readme.assets/image-20201129225217998.png)
+
+**注**:
 
 在 Nacos Spring Cloud 中，`dataId` 的完整格式如下：
 
-```plain
+```yaml
 ${prefix}-${spring.profiles.active}.${file-extension}
 ```
 
